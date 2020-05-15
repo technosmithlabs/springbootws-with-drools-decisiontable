@@ -19,7 +19,7 @@ public class DroolsConfiguration {
 
 	private KieServices kieServices = KieServices.Factory.get();
 
-	private static final String RULES_PATH = "/drools/rules.xls";
+	private static final String RULES_PATH = "drools/rules.xls";
 
 	private KieFileSystem getKieFileSystem() throws IOException {
 		KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
