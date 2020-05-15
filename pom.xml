@@ -55,7 +55,7 @@
 		<!-- Dependency added for Kie -->
 		<dependency>
 			<groupId>org.kie</groupId>
-			<artifactId>kie-spring</artifactId>
+			<artifactId>kie-ci</artifactId>
 			<version>${kie.version}</version>
 		</dependency>
 	</dependencies>
