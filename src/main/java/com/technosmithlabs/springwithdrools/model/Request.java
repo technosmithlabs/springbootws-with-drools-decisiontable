@@ -1,7 +1,5 @@
 package com.technosmithlabs.springwithdrools.model;
 
-import java.time.LocalDate;
-
 import org.springframework.stereotype.Component;
 
 @Component
@@ -9,7 +7,7 @@ public class Request {
 
 	private String fullName;
 	private String sex;
-	private LocalDate dateOfBirth;
+	private String dateOfBirth;
 	private String maritalStatus;
 
 	public Request() {
@@ -24,11 +22,11 @@ public class Request {
 		this.fullName = fullName;
 	}
 
-	public LocalDate getDateOfBirth() {
+	public String getDateOfBirth() {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(LocalDate dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
